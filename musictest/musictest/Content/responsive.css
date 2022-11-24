@@ -1,0 +1,437 @@
+﻿/* LAPTOP 14 - 15in6: 1025px --> 1366px */
+@media (min-width: 64.0625em) and (max-width: 85.375em) {
+    .laptop-hiden {
+        display: none;
+    }
+
+    .main-nextsong {
+        width: var(--next-song-width-laptop);
+    }
+
+    .nextsong__last-heading {
+        width: 100%;
+    }
+
+    .nextsong__last-list {
+        width: 100%;
+    }
+
+    .nextsong__item {
+        width: 100%;
+    }
+
+        .nextsong__item:hover .nextsong__item-action {
+            display: none;
+        }
+
+    .nextsong__item-body-depsc,
+    .nextsong__item-body-heading {
+        width: 180px;
+    }
+
+    .nextsong__item:hover .nextsong__item-body-depsc,
+    .nextsong__item:hover .nextsong__item-body-heading {
+        width: 180px;
+    }
+
+    .sidebar__add-playlist,
+    .main-sidebar {
+        width: 200px;
+    }
+
+    .nextsong__box {
+        margin-left: 3px;
+        margin-right: 1px;
+    }
+
+    .header-wrapper,
+    .main-container {
+        left: 200px;
+        right: var(--next-song-width-laptop);
+    }
+
+    .option-all {
+        margin-left: 35px;
+        margin-right: 30px;
+    }
+
+    .main {
+        background-size: contain;
+    }
+
+    .option-all__song-slider-img-first {
+        width: 168px;
+        height: 168px;
+        transform: translateX(-10px);
+    }
+
+    .option-all__song-slider-img-second {
+        width: 134px;
+        height: 134px;
+        top: 27px;
+        transform: translateX(-60px);
+    }
+
+    .option-all__song-slider-img-third {
+        width: 100px;
+        height: 100px;
+        top: 46px;
+        transform: translateX(-107px);
+    }
+
+    .option-all__song-slider {
+        width: 197px;
+        height: 206px;
+    }
+
+    .option-all__song-slider {
+        margin-top: 36px;
+    }
+
+    .songs-item-left-body {
+        width: 265px;
+    }
+
+    .songs-item:hover .songs-item-center span {
+        width: 82px;
+    }
+
+    .col.laptop-l-6 {
+        max-width: 50%;
+    }
+
+    .theme-modal__body-group-wrapper {
+        height: 500px;
+    }
+}
+
+/* MOBILE --> TABLET --> TABLET PRO: width <= 1024px */
+@media only screen and (max-width: 64em) {
+    .mobile-tablet-hiden {
+        display: none;
+    }
+
+    .main {
+        background-size: contain;
+    }
+}
+
+/* TABLET --> TABLET PRO: width >= 740px and width <= 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 64em) {
+    .tablet-hiden {
+        display: none;
+    }
+
+    .sidebar__add-playlist,
+    .main-sidebar {
+        width: 200px;
+    }
+
+    .header-wrapper,
+    .main-container {
+        left: 200px;
+        right: 0;
+    }
+
+    .option-all__song-slider-img-first {
+        width: 168px;
+        height: 168px;
+        transform: translateX(-10px);
+    }
+
+    .option-all__song-slider-img-second {
+        width: 134px;
+        height: 134px;
+        top: 27px;
+        transform: translateX(-60px);
+    }
+
+    .option-all__song-slider-img-third {
+        width: 100px;
+        height: 100px;
+        top: 46px;
+        transform: translateX(-107px);
+    }
+
+    .option-all {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .option-all__song-slider {
+        width: 197px;
+        height: 206px;
+    }
+
+    .option-all__song-slider {
+        margin-top: 36px;
+    }
+
+    .option-all__songs-list {
+        margin-left: 20px;
+    }
+
+    .songs-item-right-mv,
+    .songs-item-right-lyric {
+        display: block;
+    }
+
+    .option-all__playlist-item-margin-top {
+        margin-top: 40px;
+    }
+
+    .option-all__playlist-item-margin_top {
+        margin-bottom: 50px;
+    }
+
+    .rs__main-music-control-flex-1 {
+        flex: 1;
+    }
+
+    .container-discover__slider-left,
+    .container-discover__slider-right {
+        display: block;
+    }
+}
+
+/* TABLET AIR width >= 740px and width <= 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .ipad-air-hiden {
+        display: none !important
+    }
+
+    .songs-item-left-body {
+        width: unset;
+    }
+
+    .profile__vip-entercode {
+        display: none;
+    }
+
+    .music-control__left-content-singer {
+        width: 73%;
+    }
+
+    .songs-item-left-img {
+        /* padding-left: 20px; */
+        margin-left: 10px;
+    }
+
+    .songs-item-right {
+        width: auto;
+    }
+
+    .main-container-zingchart {
+        margin: 90px 40px 0 40px;
+    }
+
+    .songs-item:hover .songs-item-right-mv,
+    .songs-item:hover .songs-item-right-lyric,
+    .songs-item:hover .songs-item-right-more {
+        display: none;
+    }
+
+    .songs-item:hover .songs-item-right-duration {
+        display: block;
+    }
+
+    .theme-modal__body {
+        width: 630px;
+    }
+}
+
+
+
+/* MOBILE: width <= 739px */
+@media only screen and (max-width: 46.1875em) {
+    .mobile-hiden {
+        display: none !important
+    }
+
+    .main {
+        background-size: cover;
+    }
+
+    .header-wrapper {
+        left: 0;
+        right: 0;
+    }
+
+    .header__width-search {
+        margin-left: 0;
+    }
+
+    .header__width-search-input {
+        width: 80%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .main-container {
+        left: 0;
+        right: 0;
+    }
+
+    .music__option {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .music__option-list {
+        width: 320px;
+    }
+
+    .songs-item-left-body {
+        width: unset;
+    }
+
+    .option-heading {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .option-all__song-heading-right {
+        margin-left: 0;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .option-all__songs {
+        width: 100%;
+    }
+
+    .option-all {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .option-all__songs-list {
+        width: 102%;
+    }
+
+    .mobile-margin-bot-10px {
+        margin-bottom: 10px;
+    }
+
+    .mobile-margin-bot-30px {
+        margin-bottom: 30px;
+    }
+
+    .theme-modal__body {
+        width: 334px;
+    }
+
+    .theme-modal__body-group-wrapper {
+        height: 444px;
+    }
+
+    .option-all__song-heading {
+        display: none;
+    }
+
+    .option-music,
+    .option-playlist,
+    .option-singer {
+        margin: 0 20px;
+    }
+
+    .option-music-list {
+        margin-right: -4px;
+        margin-left: 4px;
+    }
+
+    .tabs-item.music__option-item {
+        margin-right: 3px;
+    }
+
+    .music-control__left,
+    .main-music-control {
+        height: 60px;
+    }
+
+    .music-control__center {
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    .music-control__left-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .music-control__left-content-singer {
+        padding-top: 0;
+        width: 190px;
+    }
+
+    .music-control__left-content-song {
+        padding-bottom: 0;
+    }
+
+    .music-control__icon-play:hover .music-control__icon33,
+    .music-control__icon-play:hover .music-control__icon3 {
+        color: #fff !important;
+        border: 2px solid #fff !important
+    }
+
+    .main-music-control {
+        padding: 0 0 0 6px;
+        bottom: 60px;
+    }
+
+    .main-container {
+        height: calc(100vh - 120px);
+    }
+
+    .music-control__icon4:hover,
+    .music-control__icon2:hover {
+        background-color: transparent;
+    }
+
+    .container-discover__slider-item {
+        width: 100%;
+    }
+
+    .container-discover__slider-item-second {
+        z-index: 2;
+        opacity: 1;
+        transform: translateX(-100%);
+    }
+
+    .container-discover__slider-item-third {
+        transform: translateX(0);
+        z-index: 5;
+        opacity: 1;
+    }
+
+    .container-discover__slider-item-four {
+        position: relative;
+        transform: translateX(100%);
+        z-index: 4;
+        opacity: 1;
+    }
+
+    .main-container-discover {
+        margin: 100px 20px 60px 20px;
+    }
+
+    .container-discover__slider {
+        overflow: hidden;
+    }
+
+    .main-container-zingchart {
+        margin: 90px 20px 0 20px;
+    }
+
+    .zingchart__headding {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-player__ctrl-icon:hover {
+        background-color: transparent;
+    }
+}

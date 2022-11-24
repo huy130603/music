@@ -1,0 +1,308 @@
+﻿﻿
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #131312;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*#div-header {
+    height: 50px;
+    width: 84%;
+    position: fixed;
+    right: 0px;
+    background-color: #333333;
+    flex-direction: row;
+    padding-left: 130px;
+    margin-bottom: 100px;
+}*/
+#div-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #111111;
+    color: black;
+    flex-wrap: wrap;
+}
+
+    #div-content .div-left {
+        height: 85%;
+        top: 0px;
+        width: 13.1%;
+        background-color: black;
+        float: left;
+        left: 0px;
+        position: fixed;
+        /*border: 1px solid #fff;*/
+    }
+
+    #div-content .div-right {
+        height: auto;
+        width: 86.9%;
+        background-color: #111111;
+        position: absolute;
+        right: 0px;
+        top: 8%;
+        padding-bottom: 15%;
+        border: 1px;
+        color: white;
+    }
+
+    #div-content .div-top {
+        height: 8%;
+        top: 0px;
+        width: 86.9%;
+        position: fixed;
+        right: 0px;
+        padding-top: 0px;
+        background-color: #333333;
+        flex-direction: row;
+    }
+
+#div-footer {
+    color: white;
+    width: 100%;
+    height: 15%;
+    bottom: 0px;
+    left: 0px;
+    clear: both;
+    background-color: #222222;
+    position: fixed;
+    text-align: center;
+    box-decoration-break: clone;
+}
+
+#q {
+    margin-left: 500px;
+    margin-top: 2px;
+    border-width: 5px;
+    padding-bottom: 2px;
+    padding-right: 50px;
+    font-size: 30px;
+    width: 500px;
+}
+/*logo các trang ở phần menu*/
+#home {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 8px;
+    top: 18px;
+}
+
+#search {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 8px;
+    top: 62px;
+}
+
+#library {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: 8px;
+    top: 109px;
+}
+
+.search {
+    position: relative;
+    width: 40%;
+    padding: 1px 10px;
+    border-radius: 20px;
+    color: gray;
+}
+
+    .search .boxsearch {
+        content: '';
+        margin-left: 20px;
+        position: center;
+        width: 20%;
+        height: 40px;
+        border-radius: 20px;
+        background: rgb(184, 184, 184,.1);
+    }
+
+    .search .bi {
+        font-size: 13px;
+        padding: 3px 0px 0px 10px;
+        color: chocolate;
+    }
+
+    .search input {
+        background: none;
+        outline: none;
+        border: none;
+        padding: 0px 10px;
+        color: #fff;
+        font-size: 12px;
+    }
+/*các hộp ở trang search*/
+.box1 {
+    width: 194px;
+    height: 194px;
+    background-color: none;
+    margin-inline-start: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#div-pro-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-pro {
+    height: 350px;
+    width: 300px;
+}
+
+.size-img {
+    height: 120px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box-description {
+    height: 120px;
+    width: auto;
+    background-color: gray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.margin-des {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.box-pro {
+    margin: auto;
+    margin-top: 10px;
+}
+/*thanh mp3*/
+.bottom {
+    color: white;
+    position: sticky;
+    height: 80px;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    gap: 0 30px;
+    font-size: -10px;
+    margin-bottom: 25px;
+}
+
+#progressbar {
+    width: 500px;
+    margin: 20px auto;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    margin: 10px 0 0 -25px;
+    color: #fff;
+    transition: .3s;
+}
+
+li span {
+    margin-left: 8px;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #0094ff;
+    color: white;
+    border-radius: 10px;
+}
+
+#homeP {
+    width: 100%;
+    height: 550px;
+}
+
+#meoxanhgif {
+    width: 200px;
+    height: 200px;
+}
+
+.banphao {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.banphao2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.diem100 {
+    height: 200px;
+    width: 200px;
+}
+
+.logo {
+    display: flex;
+    position: fixed;
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.timestamp1 {
+    margin-left: 300px;
+}
+
+.timestamp2 {
+    margin-left: 288px;
+}
+
+.timestamp3 {
+    margin-left: 360px;
+}
+
+.timestamp4 {
+    margin-left: 360px;
+}
+
+.timestamp5 {
+    margin-left: 230px;
+}

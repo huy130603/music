@@ -1,0 +1,177 @@
+﻿body {
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: #111111;
+    color: white;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+}
+#mb3{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 1000px;
+    color: white;
+    margin: 12px 0;
+    gap: 0 200px;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 1000px;
+    color: white;
+    margin: 12px 0;
+    gap: 0 200px;
+    align-items: center;
+    border-radius: 34px;
+}
+
+    .songitem img {
+        width: 50px;
+        margin: 0 0 0 -100px;
+        border-radius: 34px;
+    }
+
+.timestamp1 {
+    margin-left: 200px;
+}
+
+.timestamp2 {
+    margin-left: 215px;
+}
+
+.timestamp3 {
+    margin-left: 280px;
+}
+
+.timestamp4 {
+    margin-left: 40px;
+}
+
+.timestamp5 {
+    margin-left:212px;
+}
+.timestamp6{
+    margin-left:140px;
+}
+.timestamp7 {
+    margin-left:135px;
+}
+.timestamp8 {
+    margin-left:200px;
+}
+.timestamp9 {
+    margin-left:35px;
+}
+.timestamp10 {
+    margin-left:250px;
+}
+.timestamp11 {
+    margin-left:88px;
+}
+.timestamp12 {
+    margin-left:195px;
+}
+.timestamp13 {
+    margin-left:300px;
+}
+.timestamp14 {
+    margin-left:275px;
+}
+.timestamp15 {
+    margin-left:317px;
+}
+.timestamp16 {
+    margin-left: 335px;
+}
+
+.timestamp17 {
+    margin-left: 295px;
+}
+
+.timestamp18 {
+    margin-left: 148px;
+}
+
+.timestamp19 {
+    margin-left: 180px;
+}
+.timestamp20{
+    margin-left:287px;
+}
+.play-icon {
+    margin: 0 0 0 10px;
+    height: 50px;
+}
+
+/*.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%
+}*/
+
+.control {
+    display: flex;
+    align-items: center;
+    position:relative;
+    justify-content: center;
+    gap: 0 40px;
+}
+
+
+
+
+#progressbar {
+    width: 500px;
+    margin: 20px auto;
+}
+
+#0 {
+    display: flex;
+    margin-top: 50px;
+}
+
+#1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+#2 {
+    display: flex;
+    margin-top: 30px;
+}
+
+#3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+#4 {
+    display: flex;
+    margin-top: 30px;
+}
+.songName{
+    margin-left:-150px;
+ 
+}
+#masterImg{
+    bottom:120px;
+    position:fixed;
+ 
+}
+
